@@ -1,13 +1,14 @@
+/* Body */
 body {
   background-image: url('img/background/typewriter.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 /* bloco 1 retro.... */
-#bloco-1 {
+/* #bloco-1 {
   min-height: 30vh;
   padding-top: 10vh;
   padding-bottom: 5vh;
   margin-top: 72vh;
   margin-bottom: 350px;
-}
+} */

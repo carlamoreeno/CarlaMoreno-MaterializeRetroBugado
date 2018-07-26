@@ -13,11 +13,10 @@
 
       <!-- fonts -->
       <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
       <!-- icons-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     </head>
     <body>
@@ -30,11 +29,19 @@
             <li><a href="">eventos</a></li>
             <li><a href="contato.html">contato</a></li>
           </ul>
+          <ul id="slide-out" class="side-nav">
+            <li><a href="">blog</a></li>
+            <li><a href="flea-market.html">flea market</a></li>
+            <li><a href="">eventos</a></li>
+            <li><a href="contato.html">contato</a></li>
+          </ul>
+          <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
       </nav>
+
       <div class="row" id="contato">
         <div class="container">
-          <div class="col l10 m8 s3 white z-depth-3">
+          <div class="col l10 m9 s12 white z-depth-3">
             <h3>Contato</h3>
             <div class="container">
               <div class="row">
@@ -67,36 +74,32 @@
           </div>
         </div>
       </div>
-      </div>
+
       <footer class="page-footer white">
-          <div class="container">
-            <div class="row">
-              <div class="col l4 m6 s12 black-text" id="texto-footer">
-                <img src="img/icones/map-location.svg" alt="localização"> Rio de Janeiro - RJ
-              </div>
-              <div class="col offset-l4 l4  m6 s12" id="social-network">
-                  <a href="!#"><img src="img/icones/redes-sociais/instagram.svg" alt="instagram"></a>
-                  <a href="!#"><img src="img/icones/redes-sociais/twitter.svg" alt="twitter"></a>
-                  <a href="!#"><img src="img/icones/redes-sociais/facebook.svg" alt="facebook"></a>
-                  <a href="!#"><img src="img/icones/redes-sociais/pin.svg" alt="pinterest"></a>
-              </div>
+        <div class="container">
+          <div class="row">
+            <div class="col l4 m6 s12 black-text" id="texto-footer">
+              <img src="img/icones/map-location.svg" alt="localização"> Rio de Janeiro - RJ
+            </div>
+            <div class="col offset-l4 l4 m6 s12" id="social-network">
+                <a href="!#"><img src="img/icones/redes-sociais/instagram.svg" alt="instagram"></a>
+                <a href="!#"><img src="img/icones/redes-sociais/twitter.svg" alt="twitter"></a>
+                <a href="!#"><img src="img/icones/redes-sociais/facebook.svg" alt="facebook"></a>
+                <a href="!#"><img src="img/icones/redes-sociais/pin.svg" alt="pinterest"></a>
             </div>
           </div>
-          <div class="footer-copyright white">
-            <div class="container black-text">
-            © 2018
-            </div>
+        </div>
+        <div class="footer-copyright white">
+          <div class="container black-text">
+          © 2018
           </div>
+        </div>
       </footer>
 
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
-
-
-      <!-- Compiled and minified JavaScript -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+      <script>$(".button-collapse").sideNav()</script>
 
     </body>
-
-</html>
+  </html>

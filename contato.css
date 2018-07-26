@@ -1,5 +1,10 @@
 body {
   background-image: url('img/background/ampl.png');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
+}
+/* bloco 1 retro.... */
+#contato {
+  padding-top: 10vh;
+  margin-bottom: 0%;
 }
